@@ -1,0 +1,1 @@
+{"name":"halloween-freecell","version":"1.0.0","private":true,"type":"module","description":"Haunted FreeCell — classic solitaire and verified lantern rescue puzzles.","scripts":{"test":"node --test tests/*.test.js","start":"python3 -m http.server 4174"}}
