@@ -51,3 +51,31 @@ html.compact{height:100vh;height:100dvh;overflow:hidden}
 .compact-wide .bottom-toolbar{min-height:29px;padding:4px 2px 0}.compact-wide .subtle{font-size:9px;padding:4px 2px}.compact-wide .new-deal{font-size:9px;padding:5px 10px}.compact-wide .status{font-size:9px;min-height:19px;max-height:22px;margin-top:3px}
 .compact-wide .victory-card{padding:10px}.compact-wide .victory-candle{display:none}.compact-wide .victory h2{font-size:23px}.compact-wide .victory h2 br{display:none}.compact-wide .victory .eyebrow{margin:0;font-size:7px}.compact-wide .victory p:not(.eyebrow){margin:4px 0}.compact-wide .victory .primary{margin:5px 0;padding:7px 15px}.compact-wide .victory .subtle{padding:4px}
 dialog{max-height:calc(100dvh - 16px);overflow:auto;overscroll-behavior:contain}
+
+/* Each card is one paint layer: a covered card's corners cannot escape over its neighbor. */
+.column{isolation:isolate}
+.card{isolation:isolate;z-index:calc(var(--i,0) + 1);touch-action:pan-y}
+.card[data-movable="true"]{cursor:grab;touch-action:none}
+.column .card:not(:last-child) .corner:not(.bottom),.card-drag-ghost .card:not(:last-child) .corner:not(.bottom){flex-direction:row;align-items:baseline;gap:2px}
+.column .card:not(:last-child) .corner small,.card-drag-ghost .card:not(:last-child) .corner small{margin-top:0}
+.card-dragging,.card-dragging *{cursor:grabbing!important;user-select:none!important}
+.card.drag-source{opacity:.24}
+.card-drag-ghost{position:fixed;left:0;top:0;z-index:1000;pointer-events:none;filter:drop-shadow(0 9px 10px #00190f80);will-change:transform}
+.card-drag-ghost .card{pointer-events:none;transition:none;animation:none;border-color:#f3d58c;box-shadow:0 2px 5px #07251a44}
+.slot.drop-hover{outline:3px solid #ffdf94;outline-offset:2px;background:#e9c77838}
+.column.can-drop:after{z-index:100}
+.column.drop-hover:after{border:3px solid #ffdf94;background:#e9c77810;z-index:100}
+.slot.drop-invalid{outline:2px dashed #d59683;outline-offset:2px}
+.column.drop-invalid:after{content:'';position:absolute;inset:0 0 auto;height:calc(var(--stack-height) + var(--card-h));border:2px dashed #d59683;border-radius:7px;pointer-events:none;z-index:100}
+#scroll-tools{display:inline-flex;align-items:center;gap:5px;letter-spacing:0;color:#e1c48a}
+#scroll-tools button{display:inline-grid;place-items:center;width:28px;height:23px;padding:0;border:1px solid #d9bd7866;border-radius:4px;background:#d5bd8318;color:#f2d69a;font-size:15px;line-height:1;touch-action:manipulation}
+#scroll-tools button:hover{background:#d5bd8335}
+
+/* Proven endgame collection has its own visible, reversible playback controls. */
+.auto-finish-bar{display:flex;justify-content:center;align-items:center;gap:12px;min-height:36px;padding:4px 0;flex-shrink:0;color:#e7cc91;font-size:11px}
+.auto-finish-bar button{min-height:28px;padding:5px 12px;border:1px solid #dfc27c;background:#ead8ae;color:#244735;border-radius:6px;font-size:11px;white-space:nowrap}
+.auto-collecting .table-inner{cursor:default;pointer-events:none}
+.card.auto-source{opacity:.2}.slot.auto-target{outline:2px solid #ffdf94;outline-offset:2px}
+.auto-collect-card{box-shadow:0 7px 18px #001a1870;transition:none;animation:none}
+@media(max-width:600px){.auto-finish-bar{gap:8px;font-size:9px}.auto-finish-bar button{font-size:10px;padding:5px 9px}}
+.compact-wide .auto-finish-bar{min-height:30px;padding:2px 0;font-size:9px}.compact-wide .auto-finish-bar button{min-height:25px;font-size:9px;padding:4px 9px}
