@@ -64,6 +64,10 @@ function layout(){
  }
  inner.style.setProperty('--card-h',cardHeight+'px');inner.style.setProperty('--stack-gap',stackGap+'px');board.style.height=contentHeight+'px';
  const scroll=compact&&contentHeight>viewport.clientHeight+2,wasScrolling=!$('#scroll-tools').hidden;$('#scroll-tools').hidden=!scroll;$('#scroll-hint').textContent=t('scrollCards');$('#scroll-up').setAttribute('aria-label',t('scrollUp'));$('#scroll-down').setAttribute('aria-label',t('scrollDown'));$('#table-rule-label').hidden=scroll;if(wasScrolling!==scroll)requestAnimationFrame(layout);
+ // Position from the actual row edge: wrapped toast text and short frames may change its height.
+ const autoBar=$('#auto-finish-bar'),notice=$('#toast');
+ if(autoBar.hidden)notice.style.removeProperty('bottom');
+ else notice.style.bottom=Math.ceil($('.game').getBoundingClientRect().bottom-autoBar.getBoundingClientRect().top+8)+'px';
 }
 function revealSelectedCard(){
  if(!selected||selected.type!=='column'||!document.documentElement.classList.contains('compact'))return;
