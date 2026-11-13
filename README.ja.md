@@ -4,7 +4,7 @@
 
 🕯️ 静かな屋敷では、キングがかぼちゃに変身。暗い4つの塔が、あなたの一手を待っています。**Haunted FreeCell** は52枚の本格的なフリーセルに、ドラッグ操作と3つの Lantern Rescue 終盤パズルを加えたゲームです。空きを作り、次のカードを見つけ、塔を灯しましょう。
 
-**[ブラウザーで遊ぶ](https://halloween-freecell.crazy3d.org/)** · [全12作のハロウィンゲームを見る](https://github.com/AshinTop/halloween-games) · [⭐ GitHub で Star を付ける](https://github.com/AshinTop/halloween-freecell)
+**[ブラウザーで遊ぶ](https://crazy3d.org/halloween-freecell)** · [全12作のハロウィンゲームを見る](https://github.com/AshinTop/halloween-games) · [⭐ GitHub で Star を付ける](https://github.com/AshinTop/halloween-freecell)
 
 README は5言語に対応しています。**ゲーム内の表示は現在、英語と簡体字中国語のみ**で、文書の翻訳は画面の言語を変更しません。
 
@@ -91,6 +91,8 @@ npm test
 
 Node のチェックは、全52枚の保持、移動容量、組札からの戻し、パズル解法、ドラッグと端のスクロール、取消、完全な終盤証明、Stop、一括 Undo、動きの削減、古いコールバックの隔離を確認します。ブラウザーの操作確認と併せて使うものです。
 
+プレイヤー向けページ：[Crazy3D で遊ぶ](https://crazy3d.org/halloween-freecell)。埋め込みには Crazy3D の紹介ページではなく、ゲームの直接 URL `https://halloween-freecell.crazy3d.org/?embed=1` を使用してください。下の iframe 例ではゲームのサブドメインを使用しています。
+
 ```html
 <iframe src="https://halloween-freecell.crazy3d.org/?embed=1"
   title="Haunted FreeCell"
@@ -104,10 +106,10 @@ Node のチェックは、全52枚の保持、移動容量、組札からの戻�
 
 ## ほかのハロウィンゲームもどうぞ
 
-- **[Trick-or-Treat TriPeaks](https://halloween-tripeaks.crazy3d.org/)** · [ソース](https://github.com/AshinTop/halloween-tripeaks) — 隣り合う数字のカードをつなぎ、8つの救出問題を解く。
-- **[Pumpkin Shift](https://halloween-pumpkin-shift.crazy3d.org/)** · [ソース](https://github.com/AshinTop/halloween-pumpkin-shift) — 限られた Moon Glide を使い、12の部屋で数字タイルを並べる。
-- **[Haunted Hearts](https://halloween-love-game.crazy3d.org/)** · [ソース](https://github.com/AshinTop/halloween-love-game) — 2匹のおばけが扉、通路、ランタンを分け合う協力パズル。
-- **[Pumpkin 2048](https://halloween-2048.crazy3d.org/)** · [ソース](https://github.com/AshinTop/halloween-2048) — 数字のかぼちゃを合成し、指定位置を目指す試練に挑戦。
+- **[Trick-or-Treat TriPeaks](https://crazy3d.org/halloween-tripeaks)** · [ソース](https://github.com/AshinTop/halloween-tripeaks) — 隣り合う数字のカードをつなぎ、8つの救出問題を解く。
+- **[Pumpkin Shift](https://crazy3d.org/halloween-pumpkin-shift)** · [ソース](https://github.com/AshinTop/halloween-pumpkin-shift) — 限られた Moon Glide を使い、12の部屋で数字タイルを並べる。
+- **[Haunted Hearts](https://crazy3d.org/halloween-love-game)** · [ソース](https://github.com/AshinTop/halloween-love-game) — 2匹のおばけが扉、通路、ランタンを分け合う協力パズル。
+- **[Pumpkin 2048](https://crazy3d.org/midnight-pumpkin-2048)** · [ソース](https://github.com/AshinTop/halloween-2048) — 数字のかぼちゃを合成し、指定位置を目指す試練に挑戦。
 
 ## 制作と応援
 

@@ -4,7 +4,7 @@
 
 🕯️ 庄园静悄悄，国王变成了南瓜，四座暗塔等你点亮。**Haunted FreeCell** 是完整的 52 张牌空当接龙：能真实拖放，也能先选后放；既可玩经典牌局，也可挑战三道短小的灯笼救援残局。给纸牌腾一点空间，下一步就会亮起来。
 
-**[立即试玩](https://halloween-freecell.crazy3d.org/)** · [浏览全部 12 款万圣节游戏](https://github.com/AshinTop/halloween-games) · [⭐ 在 GitHub 点亮 Star](https://github.com/AshinTop/halloween-freecell)
+**[立即试玩](https://crazy3d.org/halloween-freecell)** · [浏览全部 12 款万圣节游戏](https://github.com/AshinTop/halloween-games) · [⭐ 在 GitHub 点亮 Star](https://github.com/AshinTop/halloween-freecell)
 
 README 提供五种语言版本。**游戏界面目前仅支持英语和简体中文**；文档翻译不代表新增了对应界面语言。
 
@@ -91,6 +91,8 @@ npm test
 
 Node 检查涵盖整副牌守恒、中转容量、收牌区可逆性、残局解法、拖放与边缘滚动、手势取消、完整胜利证明、停止、整批撤销、减少动态效果和过期回调隔离。它们与实际浏览器验收互相补充。
 
+玩家页面：[在 Crazy3D 游玩](https://crazy3d.org/halloween-freecell)。嵌入时使用游戏直连地址 `https://halloween-freecell.crazy3d.org/?embed=1`，不要把 Crazy3D 游戏介绍页用作 iframe；下方示例保留游戏子域名。
+
 ```html
 <iframe src="https://halloween-freecell.crazy3d.org/?embed=1"
   title="Haunted FreeCell"
@@ -104,10 +106,10 @@ Node 检查涵盖整副牌守恒、中转容量、收牌区可逆性、残局解
 
 ## 继续逛逛万圣节小游戏集
 
-- **[Trick-or-Treat TriPeaks](https://halloween-tripeaks.crazy3d.org/)** · [源码](https://github.com/AshinTop/halloween-tripeaks) — 串连相邻点数纸牌，挑战八个营救牌局。
-- **[Pumpkin Shift](https://halloween-pumpkin-shift.crazy3d.org/)** · [源码](https://github.com/AshinTop/halloween-pumpkin-shift) — 滑动数字方块，利用有限的月光滑移通过 12 个房间。
-- **[Haunted Hearts](https://halloween-love-game.crazy3d.org/)** · [源码](https://github.com/AshinTop/halloween-love-game) — 帮助两只幽灵开门、让路，并分享一盏灯。
-- **[Pumpkin 2048](https://halloween-2048.crazy3d.org/)** · [源码](https://github.com/AshinTop/halloween-2048) — 合成南瓜数字，挑战指定落点的灯笼试炼。
+- **[Trick-or-Treat TriPeaks](https://crazy3d.org/halloween-tripeaks)** · [源码](https://github.com/AshinTop/halloween-tripeaks) — 串连相邻点数纸牌，挑战八个营救牌局。
+- **[Pumpkin Shift](https://crazy3d.org/halloween-pumpkin-shift)** · [源码](https://github.com/AshinTop/halloween-pumpkin-shift) — 滑动数字方块，利用有限的月光滑移通过 12 个房间。
+- **[Haunted Hearts](https://crazy3d.org/halloween-love-game)** · [源码](https://github.com/AshinTop/halloween-love-game) — 帮助两只幽灵开门、让路，并分享一盏灯。
+- **[Pumpkin 2048](https://crazy3d.org/midnight-pumpkin-2048)** · [源码](https://github.com/AshinTop/halloween-2048) — 合成南瓜数字，挑战指定落点的灯笼试炼。
 
 ## 创作说明与支持
 

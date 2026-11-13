@@ -1,5 +1,13 @@
 # Embedding Haunted FreeCell
 
+## Player page and iframe source / 玩家页面与嵌入地址
+
+- Player page / 玩家页面: [Crazy3D](https://crazy3d.org/halloween-freecell)
+- Iframe source / iframe 地址: `https://halloween-freecell.crazy3d.org/?embed=1`
+
+Use the game subdomain for iframe embedding, not the Crazy3D player page. 游戏嵌入请使用上面的独立子域名，不要嵌入 Crazy3D 游戏页面。
+
+
 The live Cloudflare entry point is https://halloween-freecell.crazy3d.org/. For another host, serve the repository root as a static HTTP(S) directory. It includes all artwork, audio synthesis and game logic, with no CDN, server, login or third-party game iframe.
 
 ## Automatic viewport layout

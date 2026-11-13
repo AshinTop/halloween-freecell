@@ -4,7 +4,7 @@
 
 🕯️ La mansión está en silencio, los Reyes son calabazas y cuatro torres esperan un poco de paciencia. **Haunted FreeCell** es un solitario completo de 52 cartas con personajes de Halloween, arrastre real y tres finales de Lantern Rescue. Haz espacio, descubre la carta que necesitas y deja entrar la luz.
 
-**[Jugar ahora](https://halloween-freecell.crazy3d.org/)** · [Ver los 12 juegos de Halloween](https://github.com/AshinTop/halloween-games) · [⭐ Dar una estrella en GitHub](https://github.com/AshinTop/halloween-freecell)
+**[Jugar ahora](https://crazy3d.org/halloween-freecell)** · [Ver los 12 juegos de Halloween](https://github.com/AshinTop/halloween-games) · [⭐ Dar una estrella en GitHub](https://github.com/AshinTop/halloween-freecell)
 
 El README está disponible en cinco idiomas. La **interfaz del juego solo ofrece inglés y chino simplificado**.
 
@@ -91,6 +91,8 @@ npm test
 
 Las pruebas de Node cubren mazos, capacidad, bases reversibles, soluciones, arrastre y desplazamiento por bordes, gestos cancelados, demostración del final, Stop, Undo por lote, movimiento reducido y callbacks obsoletos. Complementan la revisión del navegador.
 
+Página para jugar: [Jugar en Crazy3D](https://crazy3d.org/halloween-freecell). Para incrustar el juego, utiliza la URL directa `https://halloween-freecell.crazy3d.org/?embed=1`, no la página de Crazy3D. El ejemplo de iframe de abajo conserva el subdominio del juego.
+
 ```html
 <iframe src="https://halloween-freecell.crazy3d.org/?embed=1"
   title="Haunted FreeCell"
@@ -104,10 +106,10 @@ Consulta [EMBEDDING.md](EMBEDDING.md) para tamaño, almacenamiento, foco y permi
 
 ## Más pequeñas aventuras de Halloween
 
-- **[Trick-or-Treat TriPeaks](https://halloween-tripeaks.crazy3d.org/)** · [Código](https://github.com/AshinTop/halloween-tripeaks) — Encadena cartas de valores consecutivos en ocho rescates.
-- **[Pumpkin Shift](https://halloween-pumpkin-shift.crazy3d.org/)** · [Código](https://github.com/AshinTop/halloween-pumpkin-shift) — Desliza números por 12 habitaciones con movimientos lunares limitados.
-- **[Haunted Hearts](https://halloween-love-game.crazy3d.org/)** · [Código](https://github.com/AshinTop/halloween-love-game) — Ayuda a dos fantasmas a compartir puertas, caminos y una linterna.
-- **[Pumpkin 2048](https://halloween-2048.crazy3d.org/)** · [Código](https://github.com/AshinTop/halloween-2048) — Combina calabazas numeradas y resuelve pruebas con casillas objetivo.
+- **[Trick-or-Treat TriPeaks](https://crazy3d.org/halloween-tripeaks)** · [Código](https://github.com/AshinTop/halloween-tripeaks) — Encadena cartas de valores consecutivos en ocho rescates.
+- **[Pumpkin Shift](https://crazy3d.org/halloween-pumpkin-shift)** · [Código](https://github.com/AshinTop/halloween-pumpkin-shift) — Desliza números por 12 habitaciones con movimientos lunares limitados.
+- **[Haunted Hearts](https://crazy3d.org/halloween-love-game)** · [Código](https://github.com/AshinTop/halloween-love-game) — Ayuda a dos fantasmas a compartir puertas, caminos y una linterna.
+- **[Pumpkin 2048](https://crazy3d.org/midnight-pumpkin-2048)** · [Código](https://github.com/AshinTop/halloween-2048) — Combina calabazas numeradas y resuelve pruebas con casillas objetivo.
 
 ## Créditos y apoyo
 

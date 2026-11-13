@@ -4,7 +4,7 @@
 
 🕯️ The manor is quiet, the Kings are pumpkins, and four dark towers need a little patience. **Haunted FreeCell** is a complete 52-card solitaire game with Halloween character cards, real drag-and-drop, and three small Lantern Rescue endgames. Make room, uncover the next card, and let the light in.
 
-**[Play online](https://halloween-freecell.crazy3d.org/)** · [Explore all 12 Halloween games](https://github.com/AshinTop/halloween-games) · [⭐ Star this repository](https://github.com/AshinTop/halloween-freecell)
+**[Play online](https://crazy3d.org/halloween-freecell)** · [Explore all 12 Halloween games](https://github.com/AshinTop/halloween-games) · [⭐ Star this repository](https://github.com/AshinTop/halloween-freecell)
 
 README translations cover five languages. The **game interface currently supports English and Simplified Chinese only**.
 
@@ -91,6 +91,8 @@ npm test
 
 The Node suites check complete decks, capacity, reversible foundations, puzzle solutions, drag/drop and edge scrolling, cancelled gestures, full-win proof, Stop, batch Undo, reduced motion, and stale callback rejection. They complement live browser review.
 
+Player page: [Play on Crazy3D](https://crazy3d.org/halloween-freecell). For embedding, use the direct game URL `https://halloween-freecell.crazy3d.org/?embed=1`, not the Crazy3D page. Keep the iframe example below on the game subdomain.
+
 ```html
 <iframe src="https://halloween-freecell.crazy3d.org/?embed=1"
   title="Haunted FreeCell"
@@ -104,10 +106,10 @@ See [EMBEDDING.md](EMBEDDING.md) for sizing, storage, input focus, and permissio
 
 ## More little Halloween adventures
 
-- **[Trick-or-Treat TriPeaks](https://halloween-tripeaks.crazy3d.org/)** · [Source](https://github.com/AshinTop/halloween-tripeaks) — Build adjacent-rank card chains across eight rescue deals.
-- **[Pumpkin Shift](https://halloween-pumpkin-shift.crazy3d.org/)** · [Source](https://github.com/AshinTop/halloween-pumpkin-shift) — Slide numbered tiles through 12 rooms with limited Moon Glides.
-- **[Haunted Hearts](https://halloween-love-game.crazy3d.org/)** · [Source](https://github.com/AshinTop/halloween-love-game) — Help two ghosts share doors, paths, and a lantern.
-- **[Pumpkin 2048](https://halloween-2048.crazy3d.org/)** · [Source](https://github.com/AshinTop/halloween-2048) — Merge numbered pumpkins and solve positional Lantern Trials.
+- **[Trick-or-Treat TriPeaks](https://crazy3d.org/halloween-tripeaks)** · [Source](https://github.com/AshinTop/halloween-tripeaks) — Build adjacent-rank card chains across eight rescue deals.
+- **[Pumpkin Shift](https://crazy3d.org/halloween-pumpkin-shift)** · [Source](https://github.com/AshinTop/halloween-pumpkin-shift) — Slide numbered tiles through 12 rooms with limited Moon Glides.
+- **[Haunted Hearts](https://crazy3d.org/halloween-love-game)** · [Source](https://github.com/AshinTop/halloween-love-game) — Help two ghosts share doors, paths, and a lantern.
+- **[Pumpkin 2048](https://crazy3d.org/midnight-pumpkin-2048)** · [Source](https://github.com/AshinTop/halloween-2048) — Merge numbered pumpkins and solve positional Lantern Trials.
 
 ## Credits and support
 
